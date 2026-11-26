@@ -1,0 +1,12 @@
+.git
+models
+data
+exp
+output
+outputs
+wandb
+**/__pycache__
+**/*.pyc
+**/*.swp
+*.pdf
+*.png

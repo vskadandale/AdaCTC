@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+*.log
+wandb/
+/outputs/
+/output/
+/exp/
+/models/
+# data manifests and audio are not redistributed
+/data/
+*.swp
+*.swo
+# figures written by src/slam_llm/utils/plot_*.py when run from the repo root
+/*.pdf
+/*.png

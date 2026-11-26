@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "hatch-requirements-txt"]
+build-backend = "hatchling.build"
+
+[project]
+name = "adactc"
+version = "0.1.0"
+description = "AdaCTC: Whisper CTC heads and adaptive CTC-guided speech-token pruning for speech LLMs (built on SLAM-LLM)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dynamic = ["dependencies"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/slam_llm", "src/whisper_ctc"]
+
+[tool.hatch.metadata.hooks.requirements_txt]
+files = ["requirements.txt"]
