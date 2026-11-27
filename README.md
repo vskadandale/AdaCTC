@@ -42,10 +42,10 @@ Download the checkpoints into `models/`:
 
 | Path | Contents | Source |
 |---|---|---|
-| `whisper_ctc_frozen_backbone.pth` | Whisper large-v3-turbo encoder + CTC head (frozen backbone) | [Hugging Face](https://huggingface.co/<hf-org>/AdaCTC) |
-| `whisper_ctc_partial_unfreeze.pth` | Whisper large-v3-turbo encoder + CTC head (last 4 blocks fine-tuned) | [Hugging Face](https://huggingface.co/<hf-org>/AdaCTC) |
-| `adactc_asr_voxpopuli/model.pt` | Adaptive ASR model: projector + LoRA weights | [Hugging Face](https://huggingface.co/<hf-org>/AdaCTC) |
-| `adactc_st_europarl/model.pt` | Adaptive ST model: projector + LoRA weights | [Hugging Face](https://huggingface.co/<hf-org>/AdaCTC) |
+| `whisper_ctc_frozen_backbone.pth` | Whisper large-v3-turbo encoder + CTC head (frozen backbone) | [Hugging Face](https://huggingface.co/SpeechTek/AdaCTC) |
+| `whisper_ctc_partial_unfreeze.pth` | Whisper large-v3-turbo encoder + CTC head (last 4 blocks fine-tuned) | [Hugging Face](https://huggingface.co/SpeechTek/AdaCTC) |
+| `adactc_asr_voxpopuli/model.pt` | Adaptive ASR model: projector + LoRA weights | [Hugging Face](https://huggingface.co/SpeechTek/AdaCTC) |
+| `adactc_st_europarl/model.pt` | Adaptive ST model: projector + LoRA weights | [Hugging Face](https://huggingface.co/SpeechTek/AdaCTC) |
 | `eurollm-1.7b/` | LLM backbone | [utter-project/EuroLLM-1.7B](https://huggingface.co/utter-project/EuroLLM-1.7B) |
 
 The Adaptive checkpoints hold only the trained parameters. The Whisper encoder comes from `whisper_ctc_partial_unfreeze.pth`, and EuroLLM-1.7B is loaded separately.
