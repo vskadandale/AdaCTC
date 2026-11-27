@@ -123,16 +123,7 @@ python src/slam_llm/utils/plot_flops.py   # GFLOPs vs. token rate (theoretical, 
 The paper's results are hardcoded in the scripts, and the figures are written to the current directory as PDF and PNG.
 
 ## Citation
-
-```bibtex
-@inproceedings{kadandale2027adaptive,
-  title     = {Adaptive {CTC}-Guided Token Pruning for Budget-Aware {SpeechLLMs}},
-  author    = {Kadandale, Venkatesh S. and Nabih, Mohamed and Falavigna, Daniele and Brutti, Alessio},
-  booktitle = {Proceedings of the 2027 Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
-  year      = {2027},
-  note      = {To appear}
-}
-```
+COMING SOON
 
 ## Acknowledgements
 
